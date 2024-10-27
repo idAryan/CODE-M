@@ -5,13 +5,15 @@
 import math
 a=int(input("enter the length of side "))
 b=int(input("enter the base "))
-m=a**2-(b/2)**2
-n=math.sqrt(m)
-area=1/2*b*n
-print("area of the triangle is" ,area)
-
 if a+a>b:
     print("your triangle is valid")
+    m=a**2-(b/2)**2
+    n=math.sqrt(m)
+    area=1/2*b*n
+    print("area of the triangle is" ,area)
 else:
     print("your triangle is not valid")
+
+
+
 
